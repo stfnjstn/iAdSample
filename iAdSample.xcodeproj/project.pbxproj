@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C38EAB81B2D8F0A0058D9E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2C38EAB71B2D8F090058D9E1 /* README.md */; };
 		2CB4DCF51B2C41B20080D523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4DCF41B2C41B20080D523 /* AppDelegate.swift */; };
 		2CB4DCF71B2C41B20080D523 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4DCF61B2C41B20080D523 /* ViewController.swift */; };
 		2CB4DCFA1B2C41B20080D523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4DCF81B2C41B20080D523 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C38EAB71B2D8F090058D9E1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2CB4DCEF1B2C41B20080D523 /* iAdSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iAdSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB4DCF31B2C41B20080D523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB4DCF41B2C41B20080D523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		2CB4DCE61B2C41B20080D523 = {
 			isa = PBXGroup;
 			children = (
+				2C38EAB71B2D8F090058D9E1 /* README.md */,
 				2CB4DD161B2CF2410080D523 /* iAd.framework */,
 				2CB4DCF11B2C41B20080D523 /* iAdSample */,
 				2CB4DD071B2C41B20080D523 /* iAdSampleTests */,
@@ -221,6 +224,7 @@
 			files = (
 				2CB4DCF71B2C41B20080D523 /* ViewController.swift in Sources */,
 				2CB4DD151B2C479B0080D523 /* TargetViewController.swift in Sources */,
+				2C38EAB81B2D8F0A0058D9E1 /* README.md in Sources */,
 				2CB4DCF51B2C41B20080D523 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +423,7 @@
 				2CB4DD101B2C41B20080D523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CB4DD111B2C41B20080D523 /* Build configuration list for PBXNativeTarget "iAdSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				2CB4DD131B2C41B20080D523 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
