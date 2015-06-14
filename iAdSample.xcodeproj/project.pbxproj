@@ -13,6 +13,8 @@
 		2CB4DCFC1B2C41B20080D523 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4DCFB1B2C41B20080D523 /* Images.xcassets */; };
 		2CB4DCFF1B2C41B20080D523 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CB4DCFD1B2C41B20080D523 /* LaunchScreen.xib */; };
 		2CB4DD0B1B2C41B20080D523 /* iAdSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4DD0A1B2C41B20080D523 /* iAdSampleTests.swift */; };
+		2CB4DD151B2C479B0080D523 /* TargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB4DD141B2C479B0080D523 /* TargetViewController.swift */; };
+		2CB4DD171B2CF2410080D523 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB4DD161B2CF2410080D523 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		2CB4DD041B2C41B20080D523 /* iAdSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAdSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB4DD091B2C41B20080D523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CB4DD0A1B2C41B20080D523 /* iAdSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdSampleTests.swift; sourceTree = "<group>"; };
+		2CB4DD141B2C479B0080D523 /* TargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetViewController.swift; sourceTree = "<group>"; };
+		2CB4DD161B2CF2410080D523 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB4DD171B2CF2410080D523 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		2CB4DCE61B2C41B20080D523 = {
 			isa = PBXGroup;
 			children = (
+				2CB4DD161B2CF2410080D523 /* iAd.framework */,
 				2CB4DCF11B2C41B20080D523 /* iAdSample */,
 				2CB4DD071B2C41B20080D523 /* iAdSampleTests */,
 				2CB4DCF01B2C41B20080D523 /* Products */,
@@ -79,6 +85,7 @@
 			children = (
 				2CB4DCF41B2C41B20080D523 /* AppDelegate.swift */,
 				2CB4DCF61B2C41B20080D523 /* ViewController.swift */,
+				2CB4DD141B2C479B0080D523 /* TargetViewController.swift */,
 				2CB4DCF81B2C41B20080D523 /* Main.storyboard */,
 				2CB4DCFB1B2C41B20080D523 /* Images.xcassets */,
 				2CB4DCFD1B2C41B20080D523 /* LaunchScreen.xib */,
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CB4DCF71B2C41B20080D523 /* ViewController.swift in Sources */,
+				2CB4DD151B2C479B0080D523 /* TargetViewController.swift in Sources */,
 				2CB4DCF51B2C41B20080D523 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,19 +7,32 @@
 //
 
 import UIKit
+import iAd
+
+var counter = 0
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Initialize the Ad
+        UIViewController.prepareInterstitialAds()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func unwindFromTargetViewController(segue: UIStoryboardSegue) {
+     
     }
-
-
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        counter++
+        if counter == 2 {
+            counter = 0
+            let destination = segue.destinationViewController as! UIViewController
+            destination.interstitialPresentationPolicy = ADInterstitialPresentationPolicy.Automatic
+        }
+    }
+    
 }
 
